@@ -1,0 +1,30 @@
+.paraList {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
+}
+
+.para {
+    text-align: center;
+    line-height: 25px;
+    box-shadow: 10px 10px 10px #ccc;
+    margin: 20px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+}
+
+.para div p {
+    margin: 10px;
+}
+
+.para:hover {
+    background-color: #ebebeb;
+    transform: translateY(10%);
+    text-decoration: none;
+}
