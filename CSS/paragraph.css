@@ -1,0 +1,69 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.img {
+    display: grid;
+}
+
+img {
+    margin: 20px;
+    max-width: 50%;
+    justify-self: center;
+}
+
+.credit {
+    justify-self: center;
+}
+
+hr {
+    width: 95%;
+}
+
+.hr {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.contentbox {
+    width: 220px;
+}
+
+.contentTitle {
+    margin: 5px;
+}
+
+.content {
+    margin: 5px 20px;
+}
+
+.paragraph {
+    font-size: 1.1rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.body {
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 25px;
+    word-spacing: 1px;
+}
+
+.info {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.margin, .info, .body, .paragraph, .question, .contentbox {
+    margin: 20px;
+}
