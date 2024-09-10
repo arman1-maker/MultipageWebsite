@@ -1,0 +1,41 @@
+:root {
+    --Turqoise: #21CFBD;
+    --Light-Sea-Green: #1DB1A8;
+    --Prussian-Blue: #0A2D4A;
+    --Space-Cadet-Dark: #1A173D;
+    --Space-Cadet-Light: #2F2C4F;
+    --Seasalt: #FAFAFA;
+    --Silver: #C9C8C8;
+    --Black: #000000;
+    --Battleship-Gray: #9B9B9B;
+}
+
+.list {
+    padding: 1%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.list a {
+    background-color: var(--Seasalt);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 80px;
+    box-shadow: 0 0 10px var(--Battleship-Gray);
+    color: var(--Black);
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+.list a:hover {
+    transform: translateY(-10px);
+}
+
+.list a h3 {
+    text-align: center;
+}
