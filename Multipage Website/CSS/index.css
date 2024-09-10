@@ -1,0 +1,52 @@
+:root {
+    --Turqoise: #21CFBD;
+    --Light-Sea-Green: #1DB1A8;
+    --Prussian-Blue: #0A2D4A;
+    --Space-Cadet-Dark: #1A173D;
+    --Space-Cadet-Light: #2F2C4F;
+    --Seasalt: #FAFAFA;
+    --Silver: #C9C8C8;
+    --Black: #000000;
+    --Battleship-Gray: #9B9B9B;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    background-color: var(--Seasalt);
+    width: 98%;
+    height: 90%;
+    margin: 1%;
+    border-radius: 12px;
+    box-shadow: 0 0 10px var(--Battleship-Gray);
+}
+
+.heading {
+    text-align: center;
+    margin: 32px;
+}
+
+.heading h1 {
+    font-size: 3em;
+    margin: 12px;
+}
+
+.read-page-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--Prussian-Blue);
+    
+}
+
+.read-page-btn a {
+    text-decoration: none;
+    color: var(--Seasalt);
+}
