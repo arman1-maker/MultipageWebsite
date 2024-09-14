@@ -75,12 +75,13 @@ function display(res) {
 //     inputBox.value = list.innerHTML;
 //     resultBox.innerHTML = '';   
 // }
-let clicking = true;
 
-menu.addEventListener('click', () => {
-        navBtnContainer.style.transform = "translateX(0px)";
+// menu.addEventListener('click', () => {
+// //         // navBtnContainer.style.display = "block";
 
-        menu.addEventListener('click', ()=> {
-            navBtnContainer.style.transform = "translateX(400px)";
-        })
-})
+// //         navBtnContainer.toggleAttribute("nav-btn-container");
+
+// //         // menu.addEventListener('click', ()=> {
+// //         //     navBtnContainer.style.transform = "none";
+// //         // })
+// // })
