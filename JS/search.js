@@ -15,6 +15,10 @@ let links = [
     {
         keyword: "My Classroom Paragraph",
         link: "/HTML/Paragraph/my-class-room.html"
+    },
+    {
+        keyword: "My Class Teacher",
+        link: "/HTML/Paragraph/my-class-teacher.html"
     }
 ]
 
